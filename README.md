@@ -13,11 +13,11 @@ bin/rails db:migrate
 bin/rails server
 ```
 Please also ensure your machine has imagemagik installed:
-``brew install imagemagick``
+```brew install imagemagick```
 You can then visit and use the app at http://localhost:3000
 
 To see test coverage run:
-``bundle exec rspec``
+```bundle exec rspec```
 
 ###### Secondary
 
