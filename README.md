@@ -1,33 +1,48 @@
 # AceBook
 
-Link to the Trello board:
-https://trello.com/b/v0gAtNXv/cloudbursters
+Working in a team of 7, during weeks 8 and 9 of the Makers Academy course the task was to recreate many elements of a social media site such as Facebook. 
 
-Link to the Draw.io ERD diagram:
-https://drive.google.com/file/d/19J-TP3VOfCpgU1ab-6hGNZ59vvMZgcpK/view?usp=sharing
+### Use
 
-## Quickstart
-
-First, clone this repository. Then:
-
-```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
-
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
-```
-You will also need to install Imagemagik directly.
+###### Main app
+The app was built using Ruby on Rails. To run on your machine please clone and run:
+`bundle install`
+`bin/rails db:create`
+`bin/rails db:migrate`
+`bin/rails server`
+Please also ensure your machine has imagemagik installed:
 `brew install imagemagick`
+You can then visit and use the app at http://localhost:3000
 
-## Troubleshooting
+To see test coverage run:
+`bundle exec rspec`
 
-If you don't have Node.js installed yet, you might run into this error when running rspec:
+###### Secondary
 
-```
-ExecJS::RuntimeUnavailable:
-  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
-```
+The app also has a secondary front-end, built using React, with the functionality to view and make posts. Please ensure you have created a user on the main app in order to be able to make a post, and ensure the backend is running as above. Navigate to /app/react-frontend, then run:
+`npm install`
+`npm start`
 
-Rails requires a Javascript runtime to work. The easiest way is to install Node by running `brew install node` - and then run `bundle exec rspec` again
+### Functionality
+
+
+
+### Appraoch 
+
+We started by agreeing on the processes we would adhere to as a team over the 2 weeks: daily stand ups and retros, pull requests, raising issues. 
+
+We started the project with planning sessions and diagramming, before working through the assigned user stories in 3 separate groups.
+
+![](app/assets/images/Entity-relationships.png)
+![](Screenshot_2021-12-06_at_16.34.07.png)
+![](Screenshot_2021-12-06_at_17.40.00.png)
+![](Screenshot_2021-12-06_at_17.40.10.png)
+
+### User stories
+
+
+
+
+
+### Reflection
+
